@@ -2,7 +2,7 @@
 
 
 
-const data = [2,5,6,10,13 , 26 , 27, 78, 101, 291 , 399]
+const data = [-5,2,4,6,10]
 
 function binarySearch(arr, searchTarget){
     let start = 0 // start index 
@@ -31,4 +31,4 @@ function binarySearch(arr, searchTarget){
 }
 
 
-console.log(binarySearch(data, 10))
+console.log(binarySearch(data, 20))
